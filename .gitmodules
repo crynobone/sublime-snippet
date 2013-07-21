@@ -1,0 +1,3 @@
+[submodule "ascii-memes"]
+	path = ascii-memes
+	url = git@github.com:druu/ascii-memes.git
