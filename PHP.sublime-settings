@@ -1,0 +1,8 @@
+// this file should named PHP.sublime-settings
+//  and should be located in your Packages/User directory (next to your user preferences file)
+{
+    // Characters that are considered to separate words
+    //  this is modified from the default with the $ removed
+    //  this allows PHP variables to be treated as words
+    "word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
+}
