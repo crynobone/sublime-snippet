@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[namespace ${1:App}\TestCase;
+
+use Mockery as m;
+
+class ${2:App}Test extends \PHPUnit_Framework_TestCase {
+	
+	/**
+	 * Teardown the test environment.
+	 */
+	public function tearDown()
+	{
+		m::close();
+	}
+}
+]]></content>
+	<tabTrigger>phpu</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

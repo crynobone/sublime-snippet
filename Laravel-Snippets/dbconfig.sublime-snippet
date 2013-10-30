@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+
+return [
+	'connections' => [
+		'${1:mysql}' => [
+			'driver'    => 'mysql',
+			'host'      => '${2:localhost}',
+			'database'  => '${3:database}',
+			'username'  => '${4:root}',
+			'password'  => '${5:root}',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
+		],
+	],
+];
+]]></content>
+    <tabTrigger>dbconfig</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
